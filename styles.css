@@ -1,2 +1,36 @@
-
-/* Your CSS Code here. */
+.row1{
+	display: flex;
+	wrap: grid;
+	margin: 0px;
+}
+.group{
+	margin: 5px;
+}
+.group img{
+	height: 100px
+}
+.row2{
+	display: flex;
+}
+.group2
+{
+	margin: 10px;
+}
+.group2 img{
+	height: 200px;
+}
+.row3{
+	display: flex;
+}
+.group3{
+	margin: 20px;
+}
+.group3 img{
+	height: 400px;
+}
+.group4{
+	margin: 40px;
+}
+group img{
+	height: 800px;
+}
