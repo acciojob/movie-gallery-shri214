@@ -1,36 +1,13 @@
-.row1{
+.container-fluid{
 	display: flex;
-	wrap: grid;
-	margin: 0px;
+	flex-flow: column wrap;
 }
-.group{
-	margin: 5px;
-}
-.group img{
-	height: 100px
-}
-.row2{
+.row{
 	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly
 }
-.group2
-{
-	margin: 10px;
-}
-.group2 img{
-	height: 200px;
-}
-.row3{
-	display: flex;
-}
-.group3{
-	margin: 20px;
-}
-.group3 img{
-	height: 400px;
-}
-.group4{
-	margin: 40px;
-}
-group img{
-	height: 800px;
+.row img{
+	height: 100px;
+	margin: 1px;
 }
